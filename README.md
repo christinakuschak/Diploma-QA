@@ -19,36 +19,45 @@
 
 ## Начало работы
 
-+ склонировать репозиторий `git clone https://github.com/chrisemenova/Diploma-QA.git`
++ склонировать репозиторий 
+```
+git clone https://github.com/chrisemenova/Diploma-QA.git
+```
 
-+ для запуска контейнеров с MySql, PostgreSQL и Node.js использовать команду `docker-compose up -d --build` (необходим установленный Docker Desktop); чтобы образ не пересобирался каждый раз необходимо убрать флаг --build
++ для запуска контейнеров с MySql, PostgreSQL и Node.js использовать команду 
+```
+docker-compose up -d
+```
 
 + запуск приложения:
 
 для запуска под MySQL
 ```  
-java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar artifacts/aqa-shop.jar
+java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar
 ```
   для запуска под PostgreSQL
 ```  
-java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar artifacts/aqa-shop.jar
+java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar
 ```
-+ запуск тестов (Allure):
++ запуск тестов:
 
 для запуска под MySQL
 ```
-gradlew -Ddb.url=jdbc:mysql://localhost:3306/app clean test
+./gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app"
 ```
    для запуска под PostgreSQL
     
 ```
-gradlew -Ddb.url=jdbc:postgresql://localhost:5432/app clean test`
+./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app"
 ```  
   
 *По умолчанию тесты запускаются для http://localhost:8080/, чтобы изменить адрес, необходимо дополнительно указать `-Dsut.url=...`
   
 *Чтобы использовать для подключения к БД логин и пароль отличные от указанных по умолчанию, необходимо дополнительно указать `-Ddb.user=...` и `-Ddb.password=...`
 
-+ для получения отчета (Allure) использовать команду `gradlew allureServe`
++ для получения отчета (Allure) использовать команду 
+```
+./gradlew allureServe
+```
 
 + после окончания тестов завершить работу приложения (Ctrl+C), остановить контейнеры командой `docker-compose down`
