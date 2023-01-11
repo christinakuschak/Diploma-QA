@@ -25,21 +25,21 @@
 
 + запуск приложения:
 
-для запуска под MySQL использовать команду
+для запуска под MySQL
 ```  
-java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar aqa-shop.jar
+java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar artifacts/aqa-shop.jar
 ```
-  для запуска под PostgreSQL использовать команду
+  для запуска под PostgreSQL
 ```  
-java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar aqa-shop.jar
+java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/app -jar artifacts/aqa-shop.jar
 ```
 + запуск тестов (Allure):
 
-для запуска под MySQL использовать команду
+для запуска под MySQL
 ```
 gradlew -Ddb.url=jdbc:mysql://localhost:3306/app clean test
 ```
-   для запуска под PostgreSQL использовать команду
+   для запуска под PostgreSQL
     
 ```
 gradlew -Ddb.url=jdbc:postgresql://localhost:5432/app clean test`
