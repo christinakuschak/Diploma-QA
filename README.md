@@ -60,4 +60,7 @@ java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifac
 ./gradlew allureServe
 ```
 
-+ после окончания тестов завершить работу приложения (Ctrl+C), остановить контейнеры командой `docker-compose down`
++ после окончания тестов завершить работу приложения (Ctrl+C), остановить контейнеры командой 
+```
+docker-compose down
+```
