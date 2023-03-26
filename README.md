@@ -3,6 +3,8 @@
 ## Документация
 
 + [План автоматизации](https://github.com/chrisemenova/Diploma-QA/blob/main/docs/Plan.md)
++ [Отчет по итогам тестирования](https://github.com/chrisemenova/Diploma-QA/blob/main/docs/Report.md)
++ [Отчет по итогам автоматизации](https://github.com/chrisemenova/Diploma-QA/blob/main/docs/Summary.md)
 
 ## Описание приложения
 Приложение — это веб-сервис "Путешествие дня", который предлагает купить тур по определённой цене двумя способами:
