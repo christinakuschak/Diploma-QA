@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec588603-2359-48ad-b937-733f7bdf83bc" name="Changes" comment="26.03">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CreditPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PaymentPageTest.java" afterDir="false" />
+    <list default="true" id="ec588603-2359-48ad-b937-733f7bdf83bc" name="Changes" comment="payment page test filled">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Screenshot_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Screenshot_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot_27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Screenshot_27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Screenshot_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Screenshot_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreditPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreditPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,22 +68,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Programming/IdeaProjects/Diploma-QA"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Programming/IdeaProjects/Diploma-QA&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Programming\IdeaProjects\Diploma-QA\artifacts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programming\IdeaProjects\Diploma-QA\screenshots" />
       <recent name="C:\Programming\IdeaProjects\Diploma-QA\docs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PaymentPageTest.shouldBuyAllFieldValidApprovedCard">
+  <component name="RunManager" selected="Gradle.CreditPageTest (1)">
+    <configuration name="CreditPageTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.CreditPageTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PaymentPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -128,6 +157,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CreditPageTest (1)" />
         <item itemvalue="Gradle.PaymentPageTest.shouldBuyAllFieldValidApprovedCard" />
         <item itemvalue="Gradle.PaymentPageTest" />
       </list>
@@ -184,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679833545743</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="payment page test filled">
+      <created>1679838852478</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679838852478</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +241,7 @@
     <MESSAGE value="+ data" />
     <MESSAGE value="+ Dockerfile, PageObjects, DataHelpers" />
     <MESSAGE value="26.03" />
-    <option name="LAST_COMMIT_MESSAGE" value="26.03" />
+    <MESSAGE value="payment page test filled" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment page test filled" />
   </component>
 </project>
