@@ -16,6 +16,18 @@
 
 **Итого:** 24 тестов - прошли успешно (77,41%), 7 тестов - провалены (22,59%).
 
+**2. СУБД MySQL**
+
+<img src="https://github.com/chrisemenova/Diploma-QA/blob/main/screenshots/Screenshot_15.jpg"  width="900" height="500" />
+
+<img src="https://raw.githubusercontent.com/chrisemenova/Diploma-QA/main/screenshots/Screenshot_17.jpg"  width="500" height="400" />
+
+<img src="https://github.com/chrisemenova/Diploma-QA/blob/main/screenshots/Screenshot_18.jpg"  width="500" height="650" />
+
+**Api-тесты**
+
+<img src="https://github.com/chrisemenova/Diploma-QA/blob/main/screenshots/Screenshot_16.jpg"  width="500" height="230" />
+
 ### Общие рекомендации
 1. Изменить заголовок web-страницы с "Заявка на карту" на корректное (например "Путешествие дня"/"Покупка тура")
 2. Составить подробную документацию для приложения
